@@ -3,7 +3,7 @@ import Helmet from 'react-helmet'
 import { withComponent } from 'react-emotion'
 import { Flex, Box, Text } from '../components/Layout'
 import { Title, Subtitle, Paragraph, Rule } from '../components/Typography'
-import { dependencies } from '../../package-lock.json'
+import { dependencies } from '../../package.json'
 
 const Columns = Flex.withComponent('main')
 const Column = Box.withComponent('section')
